@@ -6,7 +6,8 @@
 <img width="1235" alt="image" src="https://github.com/user-attachments/assets/5b729f48-891f-4b52-bf95-63a9e233506a">
 
 ### Sequence Diagram
-<img width="832" alt="image" src="https://github.com/user-attachments/assets/dbf502c8-8299-4f8e-8d98-708c45f6e12e">
+<img width="860" alt="image" src="https://github.com/user-attachments/assets/44fcac87-b874-4514-8771-e0f5604c013f">
+
 
 ## Node App
 ### Architecture Diagram
