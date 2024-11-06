@@ -1,667 +1,240 @@
+Phase A: Architecture Vision
+
+- **Objectives of Phase A**:
+    - Developing a high-level aspirational vision of the capabilities and business value to be delivered as a result of the proposed Enterprise Architecture.
+    - Identify stakeholders, concerns, and business requirements.
+    - Confirm and elaborate business goals, business drivers, and constraints.
+    - Define scope.
+    - Develop the Architecture Vision.
+    - Identify business transformation risks.
+
+- **Inputs of Phase A**:
+    - Request for Architecture Work.
+
+- **Outputs of Phase A**:
+    - Approved Statement of Architecture Work.
+    - Architecture Vision, including:
+        - Problem description.
+        - Objective of the Statement of Architecture Work.
+        - Summary views.
+        - Business scenario (optional).
+        - Refined key high-level stakeholder requirements.
+
+- **Key Activities**:
+    - Establish the architecture project.
+    - Evaluate capabilities.
+    - Assess readiness for business transformation.
+    - Confirm and elaborate Architecture Principles, including business principles.
+    - Define the Target Architecture value propositions and KPIs.
+    - Identify the business transformation risks and mitigation activities.
+    - Secure approval for the Statement of Architecture Work.
 
+- **Techniques Used**:
+    - Business Scenarios are appropriate and useful to discover and document business requirements, and to articulate an Architecture Vision that responds to those requirements.
 
-Phase C of the Architecture Development Method (ADM) is called Information Systems Architectures. The Phase Requirements Managements does not contain any letter as prefix.
+---
 
-Architecture to support enterprise change is not a purpose capability of the TOGAF EA Capability Model.
-Standardization in the software development lifecycle is not a benefit of Enterprise Architecture according to the TOGAF Standard.
+Phase B: Business Architecture
 
-Data Recency is not a dimension that defines and limits the scope of an architecture.
+- **Objectives of Phase B**:
+    - Develop the Target Business Architecture describing how the enterprise needs to operate to achieve the business goals, respond to strategic drivers, and address stakeholder concerns.
+    - Identify candidate Architecture Roadmap components based on gaps between the Baseline and Target Business Architectures.
 
-The Business Scenarios Technique is used to help identify, understand and document business needs, and thereby to derive the business requirements that the architecture development has to address.
+- **Outputs of Phase B**:
+    - Draft Architecture Definition Document including the Baseline and Target Business Architecture.
+    - Draft Architecture Requirements Specification.
 
-S' stands for specific, by defining what needs to be done in the business.
+- **Key Activities**:
+    - Conduct a formal stakeholder review before finalizing the Business Architecture.
+    - Consider what relevant Business Architecture resources are available from the Architecture Repository.
 
-TOGAF Series Guides are the Guidance part of the Standard with guidance material on how to use and adapt the TOGAF Standard for specific needs.
+- **Additional Notes**:
+    - A knowledge of the Business Architecture is a prerequisite for architecture work in any other domain (Data, Application, Technology).
+    - Business principles, goals, and drivers provide context for architecture work by describing the needs and ways of working employed by the enterprise.
 
-In Phase A: Architecture Visio Business Scenarios are an appropriate and useful technique to discover and document business requirements and to articulate an Architecture Vision that responds to those requirements.
+---
 
-The Business Scenario method is a technique to validate, elaborate and/or change the premise behind an architecture effort by understanding and documenting the key elements of a Business Scenario in successive iterations.
+Phase C: Information Systems Architectures
 
-Ideally a Building Block is re-usable, replaceable and well specified.
+- **Overview**:
+    Phase C includes the development of Data and Application Architectures.
 
-Besides breadth, depth and architecture domains, the time period defines the scope of an architecture.
+- **Data Architecture**:
+    - **Objectives**:
+        - Develop the Target Data Architecture that enables the Business Architecture and the Architecture Vision.
+        - Identify candidate Architecture Roadmap components based on gaps between the Baseline and Target Data Architectures.
 
-Problem area is not one of the four dimensions used in order to define and limit the scope of an architecture.
+- **Application Architecture**:
+    - **Objectives**:
+        - Develop the Target Application Architecture that enables the Business Architecture and the Architecture Vision.
+        - Specify how the various applications are to share information and services.
+        - Identify candidate Architecture Roadmap components based on gaps between the Baseline and Target Application Architectures.
+    - **Resources**:
+        - The Open Group's Reference Model for Integrated Information Infrastructure (III-RM) focuses on the application-level components and services necessary to provide an integrated information infrastructure.
 
-The purpose of Enterprise Architecture is to optimize across the enterprise the often fragmented legacy of processes (both manual and automated) into an integrated environment that is responsive to change and supportive of the deliver y of the business strategy. Enterprise Architecture does not provide guidance and orientation for hybrid software development.
+- **Outputs of Phase C**:
+    - Draft Architecture Definition Document including the Baseline and Target Data and Application Architectures.
+    - Draft Architecture Requirements Specification.
 
-Ensuring that IT components can be procured cheaply is a benefit of a purchasing department, not Enterprise Architecture.
+---
 
-HR departments of two competing companies most likely do not have a common goal.
+Phase D: Technology Architecture
 
-Presenting different alternatives and trade-offs to stakeholders, not only sponsors, helps architects to extract hidden agendas, principles and requirements that could impact the final Target Architecture.
+- **Objectives of Phase D**:
+    - Develop the Target Technology Architecture that enables the Architecture Vision and supports the Target Business, Data, and Application Architectures.
+    - Identify candidate Architecture Roadmap components based on gaps between the Baseline and Target Technology Architectures.
 
-Breadth, depth, time period and Architecture Domains are the four dimensions for scoping an architecture. The Architecture Capability carries out architectural activity effectively within an enterprise.
+- **Key Activities**:
+    - Consider relevant Technology Architecture resources available in the Architecture Repository.
+    - Use the Open Group's III-RM as a model for integrated information infrastructure if applicable.
 
-The TOGAF Standard considers an "enterprise" to be any collection of organizations that have common goals.
+- **Outputs of Phase D**:
+    - Draft Architecture Definition Document including the Baseline and Target Technology Architectures.
+    - Draft Architecture Requirements Specification.
 
-here are five criteria that distinguish a good set of principles:
+---
 
-- Understandable: the underlying tenets can be quickly grasped and understood by individuals throughout the organization. The intention of the principle is clear and unambiguous, so that violations, whether intentional or not, are minimized.
+Phase E: Opportunities & Solutions
 
-- Robust: enable good quality decisions about architectures and plans to be made, and enforceable policies and standards to be created. Each principle should be sufficiently definitive and precise to support consistent decision-making in complex, potentially controversial situations.
+- **Objectives of Phase E**:
+    - Generate the initial complete version of the Architecture Roadmap based on the gap analysis from Phases B, C, and D.
+    - Determine whether an incremental approach is required and identify Transition Architectures.
+    - Define the overall Solution Building Blocks (SBBs) to finalize the Target Architecture based on the Architecture Building Blocks (ABBs).
 
-- Complete: every potentially important principle governing the management of information and technology for the organization is defined - the principles cover every situation perceived.
+- **Key Activities**:
+    - Review and consolidate gap analysis results from Phases B to D.
+    - Create the first version of the Implementation and Migration Plan.
+    - Identify business drivers that would constrain the sequence of implementation.
+    - Create an overall Implementation and Migration Strategy to guide the implementation of the Target Architecture.
 
-- Consistent: strict adherence to one principle may require a loose interpretation of another principle. The set of principles must be expressed in a way that allows a balance of interpretations. Principles should not be contradictory to the point where adhering to one principle would violate the spirit of another. Every word in a principle statement should be carefully chosen to allow consistent yet flexible interpretation.
+- **Outputs of Phase E**:
+    - Initial Architecture Roadmap.
+    - Implementation and Migration Plan (Draft), including an Implementation and Migration Strategy.
 
-- Stable: principles should be enduring, yet able to accommodate changes. An amendment process should be established for adding, removing, or altering principles after they are ratified initially.
+---
 
+Phase F: Migration Planning
 
+- **Objectives of Phase F**:
+    - Assess the dependencies, costs, and benefits of the migration projects.
+    - Prioritize the migration projects through a cost–benefit analysis.
+    - Finalize the Architecture Roadmap and the supporting Implementation and Migration Plan.
 
-Architecture Principles are typically developed by the Enterprise Architects, in conjunction with the key stakeholders, and are approved by the Architecture Board.
+- **Outputs of Phase F**:
+    - Finalized Architecture Definition Document with finalized Transition Architectures.
+    - Architecture Roadmap including any Transition Architectures.
+    - Implementation and Migration Plan aligned with the Target Architecture.
 
-Architecture Principles will be informed by principles at the enterprise level, if they exist.
+---
 
-Architecture Principles must be clearly traceable and clearly articulated to guide decision-making. They are chosen so as to ensure alignment of the architecture and implementation of the Target Architecture with business strategies and visions.
+Phase G: Implementation Governance
 
-Specifically, the development of Architecture Principles is typically influenced by the following:
-- Enterprise mission and plans: the mission, plans, and organizational infrastructure of the enterprise
-- Enterprise strategic initiatives: the characteristics of the enterprise - its strengths, weaknesses, opportunities, and threats - and its current enterprise-wide initiatives (such as process improvement and quality management)
-- External constraints: market factors (time-to-market imperatives, customer expectations, etc.); existing and potential legislation
-- Current systems and technology: the set of information resources deployed within the enterprise, including systems documentation, equipment inventories, network configuration diagrams, policies, and procedures
-- Emerging industry trends: predictions about economic, political, technical, and market factors that influence the enterprise environment
+- **Objectives of Phase G**:
+    - Provide architectural oversight of the implementation.
+    - Ensure conformance with the Target Architecture by implementation projects.
+    - Perform appropriate Architecture Governance functions for the solution and any implementation-driven architecture change requests.
 
-Rationale: Should highlight the business benefits of adhering to the principle, using business terminology. Point to the similarity of information and technology principles to the principles governing business operations. Also describe the relationship to other principles, and the intentions regarding a balanced interpretation. Describe situations where one principle would be given precedence or carry more weight than another for making a decision.
+- **Outputs of Phase G**:
+    - Architecture Contract (signed).
+    - Compliance assessments of the implementation projects.
+    - Architecture-compliant implemented architectures.
 
-Name: Should both represent the essence of the rule as well as be easy to remember. Specific technology platforms should not be mentioned in the name or statement of a principle. Avoid ambiguous words in the Name and in the Statement such as: "support", "open", "consider", and for lack of good measure the word "avoid", itself, be careful with "manage(ment)", and look for unnecessary adjectives and adverbs (fluff).
+- **Key Activities**:
+    - Document the Architecture Contract and obtain signatures from all developing organizations and the sponsoring organization.
+    - Provide guidance to implementation team members.
 
-Statement: Should succinctly and unambiguously communicate the fundamental rule. For the most part, the principles statements for managing information are similar from one organization to the next. It is vital that the principles statement is unambiguous.
+---
 
-Implications: Should highlight the requirements, both for the business and IT, for carrying out the principle - in terms of resources, costs, and activities/tasks. Although it may often be apparent that current systems, standards, or practices would be incongruent with the principle upon adoption, context will drive the degree of scope. The impact to the business and consequences of adopting a principle should be clearly stated. The reader should readily discern the answer to: "How does this affect me?". It is important not to oversimplify, trivialize, or judge the merit of the impact. Some of the implications will be identified as potential impacts only, and may be speculative rather than fully analyzed.
+Phase H: Architecture Change Management
 
+- **Objectives of Phase H**:
+    - Ensure that the architecture responds to the needs of the enterprise.
+    - Ensure that the Architecture Governance Framework is executed.
+    - Manage changes to the architecture in a cohesive and architected way.
 
-This Preliminary Phase is about defining "where, what, why, who, and how we do architecture" in the enterprise concerned. The main aspects are as follows:
+- **Key Activities**:
+    - Establish and support the Enterprise Architecture to provide flexibility to meet changing business needs.
+    - Monitor the governance process and ensure the Architecture Capability meets current requirements.
 
-- Defining the enterprise
-- Identifying key drivers and elements in the organizational context
-- Defining the requirements for architecture work
-- Defining the Architecture Principles that will inform any architecture work
-- Defining the framework to be used
-- Defining the relationships between management frameworks
-- Evaluating the Enterprise Architecture maturity
+---
 
-Security Architecture is part of the TOGAF Series Guides, but not part of the TOGAF Fundamental Content.
+Requirements Management
 
-Digital Enterprise & Agile Architecture are both TOGAF Series Guides and are not part of the TOGAF Fundamental Content.
+- **Objectives**:
+    - Ensure that all requirements for the architecture are identified, stored, and addressed.
+    - Manage architecture requirements identified during any execution of the ADM cycle or a phase.
 
-Defining Architecture Contracts is not part of the approach to the Preliminary Phase.
+- **Key Activities**:
+    - Add requirements and re-assess priorities.
+    - Ensure that relevant architecture requirements are available for use by each phase as it is executed.
+    - Continuously drive the ADM through the Requirements Management process.
 
-Chapter 2 Preliminary Phase-The Preliminary Phase includes the objective of defining and establishing the organizational model for Enterprise Architecture.
+---
 
-Chapter 2 Preliminary Phase-Creating the Architecture Vision is not part of the approach to the Preliminary Phase, but rather to Phase A: Architecture Vision.
+Preliminary Phase
 
+- **Objectives**:
+    - Define "where, what, why, who, and how we do architecture" in the enterprise.
+    - Establish the Architecture Capability including the organizational model for Enterprise Architecture, the process and resources for Architecture Governance, the tools, and Architecture Principles.
 
-The gap between the Enterprise’s current state and future state highlights what must change.
+- **Key Activities**:
+    - Defining the enterprise.
+    - Identifying key drivers and elements in the organizational context.
+    - Defining the requirements for architecture work.
+    - Defining the Architecture Principles that will inform any architecture work.
+    - Defining the framework to be used.
+    - Defining the relationships between management frameworks.
+    - Evaluating the Enterprise Architecture maturity.
 
-The Architecture Development Method (ADM) provides a number of architecture development phases together with purpose and objectives.
+---
 
-The Architecture Definition Document is the deliverable container for the core architectural artifacts created during a project and for important related information.
+Additional Concepts and Definitions
 
-Establishing a sustainable architecture practice within an organization can be achieved by adhering to the same approach that is used to establish any other capability.
-As with any business capability, the establishment of an Enterprise Architecture Capability can be supported by the TOGAF Architecture Development Method (ADM).
+- **Architecture Building Blocks (ABBs)**:
+    - Specify the required capabilities at a logical level.
+    - Guide the development of Solution Building Blocks (SBBs).
 
-The TOGAF Standard is an open, industry consensus framework for Enterprise Architecture. It is a foundational framework, which means that it is applicable to the development of any kind of architecture in any context.
+- **Solution Building Blocks (SBBs)**:
+    - Physical or implementation-specific components that realize the capabilities defined by ABBs.
+    - Include custom-developed or purchased processes and IT systems.
 
-Complete, Consistent, Robust, Stable and Understandable are five criteria that distinguish a good set of Architecture Principles.
+- **Architecture Vision**:
+    - Provides a summary of the changes to the enterprise that will accrue from successful deployment of the Target Architecture.
+    - Created early in the ADM cycle.
 
-Architecture Principles provide a foundation for making architecture & planning decisions, framing policies, procedures & standards and supporting resolution of conflicting situations.
+- **Architecture Definition Document**:
+    - The deliverable container for the core architectural artifacts created during a project.
+    - Provides a qualitative view of the solution and communicates the intent of the architects.
 
-The recommended template for an Architecture Principle does not contain a checklist.
+- **Architecture Roadmap**:
+    - Lists individual work packages to realize the Target Architecture.
+    - Shows progression from the Baseline to the Target Architecture over time.
 
-The establishment of the architecture practice should not be seen as a phase of an architecture project, or a one-off project, but rather as an ongoing discipline that provides the context, environment and resources to govern and enable architecture delivery to the organization.
+- **Transition Architecture**:
+    - A formal description of one state of the architecture at a significant point in time.
+    - Provides an intermediate step between the Baseline and Target Architectures.
 
-Only the definition of Architecture Principles as part of establishing an Enterprise Architecture Capability is an objective of the Preliminary Phase.
+- **Gap Analysis**:
+    - Highlights shortfalls between the Baseline and Target Architectures.
+    - Identifies gaps that need to be addressed to achieve the Target Architecture.
 
-All four topics are techniques of the TOGAF Architecture Development Method (ADM).
+- **Architecture Governance**:
+    - Ensures that the architecture is managed and controlled at an enterprise-wide level.
+    - Involves a cross-organization Architecture Board.
 
-Architecture Principles govern the architecture process, affecting the development, maintenance and use of the Enterprise Architecture.
+- **Business Transformation Readiness Assessment**:
+    - Evaluates and quantifies an organization's readiness to undergo change.
+    - Uses readiness factors presented through maturity models.
 
-The TOGAF Documentation Set consists of The TOGAF Standard, TOGAF Fundamental Content, TOGAF Series Guides and TOGAF Library.
+- **Architecture Compliance**:
+    - A process to ensure that projects comply with the Enterprise Architecture.
+    - Involves compliance reviews and adherence to Architecture Contracts.
 
-ADM Practices is not a TOGAF Series Guide.
+- **Stakeholders and Concerns**:
+    - Stakeholders are individuals or groups with an interest in the system.
+    - Concerns are interests relevant to one or more stakeholders.
 
-Chapter 2 Preliminary Phase - The Preliminary Phase of the Architecture Development Method tailors the Enterprise Architecture Framework TOGAF to the organization's needs.
+- **Architecture View and Viewpoint**:
+    - An Architecture View is a representation of a system from the perspective of a set of concerns.
+    - An Architecture Viewpoint defines the conventions for constructing and using an Architecture View.
 
-The ADM supports a number of concepts that are characterized as iteration.
-First, iteration describes the process of describing a comprehensive Architecture Landscape through multiple ADM cycles based upon individual initiatives bound to the scope of the Request for Architecture Work.
-Second, iteration describes the integrated process of developing an architecture where the activities described in different ADM phases interact to produce an integrated architecture.
-
-Scope the elements of the enterprise affected by the EA Capability belongs to the objective "Determine the Architecture Capability desired by the organization" of the Preliminary Phase.
-
-The Preliminary Phase of the TOGAF Architecture Development Method (ADM) tailors the EA framework to meet the business need.
-
-Architecture Principles are principles. Principles are general rules and guidelines, intended to be enduring and seldom amended, that inform and support the way in which an organization sets about fulfilling its mission. Hence, Architecture Principles are enduring and seldom amended.
-
-The Preliminary Phase establishes the Architecture Capability including the organizational model for Enterprise Architecture, the process and resources for Architecture Governance, the tools and Architecture Principles.
-
-An optional output of the Preliminary Phase, the first phase of the Architecture Development Method, is the Request for Architecture Work.
-
-
-
-
-The Enterprise Continuum is a categorization for assets held in the Enterprise Repositories that provides methods for classifying assets, including architecture and solution artifacts as they evolve from generic Foundation Architectures to Organization Specific Architectures.
-
-The Enterprise Continuum is a framework used in enterprise architecture to classify and organize various assets, including architecture and solution artifacts, as they evolve from generic Foundation Architectures to Organization-Specific Architectures. This framework is a key component of TOGAF (The Open Group Architecture Framework) and helps organizations manage their architectural resources effectively.
-
-The simplest way of thinking of the Enterprise Continuum is as a view of the repository of all the architecture assets.
-
-## Components of the Enterprise Continuum
-
-The Enterprise Continuum consists of two main continua:
-
-1. **Architecture Continuum**: This provides a structure for organizing reusable architecture assets, known as Architecture Building Blocks (ABBs). These assets evolve from abstract and generic entities to specific organizational architectures. The Architecture Continuum helps in understanding the rules, representations, and relationships within an architecture[1][5].
-
-2. **Solutions Continuum**: This focuses on the implementation of assets defined in the Architecture Continuum. It organizes solutions into Solution Building Blocks (SBBs), addressing agreements between customers and partners for solution implementation[1][5].
-
-## Example of Enterprise Continuum in Practice
-
-Consider a large organization with multiple departments, each managing its own IT systems. The organization uses the Enterprise Continuum to manage the complexity and redundancy across these systems:
-
-- **Foundation Architectures**: These are generic architectures like a Technical Reference Model (TRM) that can be applied across various industries. For example, a common data model or network protocol used across all departments[7].
-
-- **Common Systems Architectures**: These are more specific than foundation architectures but still applicable across multiple departments. An example could be an Enterprise Resource Planning (ERP) system that integrates various business processes across departments[7].
-
-- **Industry Architectures**: These are specific to a particular industry but can be reused by multiple organizations within that industry. For instance, an ERP system tailored for the automotive industry[7].
-
-- **Organization-Specific Architectures**: These are unique to the organization and support specific projects or programs. An example might be a custom CRM system designed to meet the unique needs of the organization's sales department[7].
-
-By using the Enterprise Continuum, organizations can classify and manage their architecture assets efficiently, ensuring alignment with business goals and facilitating effective communication among stakeholders[4][5].
-
-Architecture Continuum and Solutions Continuum the TOGAF Standard considers as the constituent parts of the Enterprise Continuum.
-The acronym BDAT stands for the four Architecture Domains Business, Data, Application and Technology Architecture.
-
-
-Chapter 6 Enterprise Continuum -network of connected enterprises.
-
-There may be a variety of Organization-Specific Architectures that are needed to effectively cover the organization's requirements by defining the architectures in increasing levels of detail. Alternatively, this might result in several more detailed Organization-Specific Architectures for specific entities within the global enterprise. Breaking down Organization-Specific Architectures into constituent pieces is addressed in the TOGAF Standard - Applying the ADM.
-
-The Organization-Specific Architecture guides the final customization of the solution, and has the following characteristics:
-
-- Provides a means to communicate and manage business operations across all four architecture domains
-- Reflects requirements specific to a particular enterprise
-- Defines building blocks specific to a particular enterprise
-- Contains organization-specific business models, data, applications, and technologies
-- Provides a means to encourage implementation of appropriate solutions to meet business needs
-- Provides the criteria to measure and select appropriate products, solutions, and services
-- Provides an evolutionary path to support growth and new business needs
-
-
-
-The Reference Library provides guidelines, templates, patterns, and other forms of reference material that can be leveraged in order to accelerate the creation of new architectures for the enterprise.
-
-
-
-
-
-Chapter 3 Phase A: Architecture Vision
-
-The steps in Phase A are as follows:
-- Establish the architecture project
-- Identify stakeholders, concerns, and business requirements
-- Confirm and elaborate business goals, business drivers, and constraints
-- Evaluate capabilities
-- Assess readiness for business transformation
-- Define scope
-- Confirm and elaborate Architecture Principles, including business principles
-- Develop Architecture Vision
-- Define the Target Architecture value propositions and KPIs
-- Identify the business transformation risks and mitigation activities
-- Develop Statement of Architecture Work; secure approval
-
-
-
-There are four architecture domains that are commonly accepted as subsets of an overall
-Enterprise Architecture, all of which the TOGAF Standard is designed to support: Business Architecture, Data Architecture, Application Architecture and Technology Architecture.
-
-Architecture effort can be divided into four distinct abstraction levels that cross the Business, Data, Application, and Technology domains to answer fundamental questions about an architecture: Contextual, Conceptual, Logical and Physical Abstraction Level.
-
-The TOGAF Architecture Development Method (ADM) provides a tested and repeatable process for developing architectures. The ADM includes establishing an architecture framework, developing architecture content, transitioning, and governing the realization of architectures.
-
-The outputs of Phase A may include Architecture Vision, including:
-- Problem description
-- Objective of the Statement of Architecture Work
-- Summary views
-- Business scenario (optional)
-- Refined key high-level stakeholder requirements
-
-Phase E: Opportunities & Solutions conducts initial implementation planning and the identification of delivery vehicles for the architecture defined in the previous phases
-
-A deliverable is a work product that is contractually specified and in turn formally reviewed, approved and signed off by the stakeholders. Deliverables represent the output of projects and those deliverables that are in documentation form will typically be archived at completion of a project, or transitioned into an Architecture Repository as a reference model, standard or snapshot of the Architecture Landscape at a point in time.
-
-"Stakeholders" are individuals, teams, organizations, or classes thereof, having an interest in a system.
-
-"Concerns" are interests in a system relevant to one or more of its stakeholders. Concerns may pertain to any aspect of the system's functioning, development, or operation, including considerations such as performance, reliability, security, distribution, and evolvability and may determine the acceptability of the system.
-
-Concerns are often related to requirements. A concern can be a general requirement type, such as availability. It may lead to the definition of several particular requirements. It may be an interest related to some goal of a stakeholder. Identifying concerns helps ensure stakeholders' interests are addressed and requirements are identified. Associating concerns with general artifact types helps architects to select and develop particular artifacts for presentation to stakeholders.
-
-
-
-Chapter 3 Architectural Artifacts
- An architecture view is what you see; an architecture viewpoint is where you are looking from - the vantage point or perspective that determines what you see
-- Architecture viewpoints are generic, and can be stored in libraries for re-use; an architecture view is always specific to the architecture for which it is created
-- Every architecture view has an associated architecture viewpoint that describes it, at least implicitly
-- ISO/IEC/IEEE 42010:2011 encourages architects to define architecture viewpoints explicitly. Making this distinction between the content and schema of a view may seem at first to be an unnecessary overhead, but it provides a mechanism for re-using architecture viewpoints across different architectures.
-
-The Foundation-level Core Enterprise Metamodel is not a detailed model of architectural work products.
-
-The Chief Architect manages the Architecture Governance activity is not the way the TOGAF Standard defines Architecture Governance.
-
-Strategic Architecture provides an organizing framework for operational and change activity and allows for direction setting at an executive level.
-
-The Capability Architecture contains the most detail.
-
-The Governance Repository provides a record of governance activity across the enterprise.
-
-
-The TOGAF framework recommends that the ADM be adapted to meet the needs of the enterprise and to support different architecture styles. In particular, the ADM does not: 1. Mandate that the phases must be performed in any specific sequence 2. Mandate a "waterfall" method
-
-
-Chapter 3 Phase A: Architecture Vision-Developing a high-level aspirational vision of the capabilities and business value to be delivered as a result of the proposed Enterprise Architecture is one objective of Phase A: Architecture Vision.
-
-
-Chapter 3 Phase A: Architecture Vision-Input of Phase A is the Request for Architecture Work.
-
-Chapter 3 Phase A: Architecture Vision - Business scenarios are an appropriate and useful technique to discover and document business requirements, and to articulate an Architecture Vision that responds to those requirements.
-
-The Architecture Landscape is the architectural representation of assets deployed within the operating enterprise at a particular point in time - the landscape is likely to exist at multiple levels of abstraction to suit different architecture objectives.
-
-The Standards Library captures the standards with which new architectures must comply, which may include industry standards, selected products and services from suppliers or shared services already deployed within the organization.
-
-"Stakeholders" are individuals, teams, organizations or classes thereof, having an interest in a system.
-
-An "Architecture View" is a representation of a system from the perspective of a related set of concerns. It consists of one or more architecture models of the system. An "Architecture Viewpoint" is a specification of the conventions for a particular kind of Architecture View.
-
-Concerns are interests in a system relevant to one or more of its stakeholders. A concern can be a general requirement type, such as availability. It may lead to the definition of several particular requirements.
-
-A Concern may be an interest related to some goal of a stakeholder. Identifying concerns helps ensure stakeholders’ interests are addressed and requirements are identified.
-
-A deliverable is a work product that is contractually specified and in turn formally reviewed, approved, and signed off by the stakeholders. An artifact is an architectural work product that describes an aspect of the architecture.
-
-Major components of the Architecture Repository are Architecture Metamodel, Solutions Landscape, Architecture Requirements Repository, Architecture Landscape, Reference Library, Standards Library, Governance Repository and Architecture Capability.
-
-The Enterprise Continuum is a categorization for assets held in the Enterprise Repositories that provides methods for classifying assets, including architecture and solution artifacts as they evolve from generic Foundation Architectures to Organization-Specific Architectures.
-
-The outputs of Phase A may include an approved Statement of Architecture Work.
-
-According to the TOGAF Standard, Architecture Governance is beneficial in all four aspects.
-
-The Governance Repository provides a record of governance activity across the enterprise.
-
-The Standards Library captures the standards with which new architectures must comply, which may include industry standards, selected products and services from suppliers or shared services already deployed within the organization.
-
-There are four architecture domains that are commonly accepted as subsets of an overall Enterprise Architecture, all of which the TOGAF Standard is designed to support: Business Architecture, Data Architecture Application Architecture and Technology Architecture.
-
-The Technology Architecture describes the digital architecture and the logical software and hardware infrastructure capabilities and standards that are required to support the deployment of business, data and applications services. This includes digital services, Internet of Things (IoT), social media infrastructure, cloud services, IT infrastructure, middleware, networks, communications, processing, standards, etc.
-
-Phase A: Architecture Vision describes the initial phase of an architecture development cycle.
-
-The Architecture Domain Business Architecture is normally the first activity undertaken in a TOGAF Architecture Development Method (ADM) cycle.
-
-The TOGAF framework recommends that the ADM be adapted to meet the needs of the enterprise and to support different architecture styles.
-
-Presentation Integration/Interoperability is where a common look-and-feel approach through a common portal-like solution guides the user to the underlying functionality of the set of systems.
-
-The data model is not a specific solution, but an architecture. Given its purpose to share global tax information, it is a specific architecture.
-
-TOGAF defines Risk Management as identifying and assessing the likelihood and magnitude of potential positive or negative events.
-
-Chapter 3 Phase A: Architecture Vision -Business scenarios are an appropriate and useful technique to discover and document business requirements, and to articulate an Architecture Vision that responds to those requirements.
-
-The Architecture Capability defines the parameters, structures and processes that support governance of the Architecture Repository.
-
-Artifacts held in the Architecture Repository can be categorized using the Enterprise Continuum.
-
-An (Architecture) View is used to address the Concerns of a stakeholder.
-
-Every (Architecture) View has an associated (Architecture) Viewpoint that describes it at least implicitly.
-
-Architecture Governance is the practice and orientation by which Enterprise Architectures and other architectures are managed and controlled at an enterprise-wide level.
-
-Chapter 3 Phase A: Architecture Vision-Only "Develop a high-level aspirational vision of the capabilities and business value as a result of the proposed Enterprise Architecture" is an objective of Phase A: Architecture Vision.
-
-Chapter 3 Phase A: Architecture Vision - As non-architectural input of Phase A: Architecture Vision, the Request for Architecture Work triggers a cycle of the Architecture Development Method.
-
-
-The Strategic Architecture provides an organizing framework for operational and change activity and allows for direction setting at an executive level.
-
-8 of 10 phases are arranged of the Architecture Development Method (ADM) are arranged in a cycle.
-
-The TOGAF framework recommends that the ADM be adapted to meet the needs of the enterprise and to support different architecture styles.
-
-The TOGAF Standard describes how the Architecture Development Method (ADM) can be used iteratively to develop a comprehensive Enterprise Architecture landscape. The method is used for any organization with common goals. Competing enterprise do not have common goals.
-
-In the Application Architecture (Phase C), the way that the various applications are to share the information and services is specified.
-
-The Enterprise Continuum is a categorization for assets held in the Enterprise Repositories that provides methods for classifying assets, including architecture and solution artifacts as they evolve from generic Foundation Architectures to Organization-Specific Architectures.
-
-Chapter 3 Phase A: Architecture Vision - Phase A: Architecture Vision identifies business transformation risks.
-
-The concerns of stakeholders are considered when creating a new (Architecture) Viewpoint.
-
-The TOGAF Standard may use a variety of modeling languages, such as the ArchiMate® modeling language, Business Process Modeling Notation™ (BPMN™), Unified Modeling Language™ (UML®), entity relationship diagramming, flowcharting, or any other notation that can express some TOGAF ideas.
-
-The Content Framework defines a categorization framework to be used to describe the Building Blocks and artifacts reflecting decisions taken in creating the overall architecture deliverables. The Content Framework is one element of the Enterprise-Specific Architecture Framework.
-
-The ADM Phase A creates an Architecture Vision including problem description, objective of the Statement of Architecture Work, summary views, Business Scenario and refined key high-level stakeholder requirements.
-
-An Architecture View is a representation of a system from the perspective of a related set of concerns.
-
-Phase A develops the Statement of Architecture Work and secures approval, thus the sponsor’s sign-off to proceed.
-
-Corporate Governance is the system by which business corporations are directed and controlled. The TOGAF Standard follows this definition and applies it for Enterprise Architecture. In consequence, Architecture Governance is a system by which (Enterprise) Architectures are directed and controlled.
-
-The TOGAF Architecture Development Method (ADM) provides a tested and repeatable process for developing architectures. The ADM includes establishing an architecture framework, developing architecture content, transitioning and governing the realization of architectures.
-
-Developing a high-quality metamodel is an important aspect of establishing the Enterprise Architecture Capability. The EA capability is established in the Preliminary Phase. Hence, the Enterprise Metamodel is selected and adapted in the Preliminary Phase.
-
-The outputs of Phase A may include the Approved Statement of Architecture Work.
-
-The Technology Architecture describes the digital architecture and the logical software and hardware infrastructure capabilities and standards that are required to support the deployment of business, data, and applications services. This includes digital services, Internet of Things (IoT), social media infrastructure, cloud services, IT infrastructure, middleware, networks, communications, processing, standards, etc.. In consequence, the head of Information Technology (IT) department will be most interested in this Architecture Domain.
-
-The TOGAF Architecture Development Method (ADM) provides a tested and repeatable process for developing architectures. The ADM includes establishing an architecture framework, developing architecture content, transitioning and governing the realization of architectures.
-
-The Enterprise Continuum is a categorization for assets held in the Enterprise Repositories that provides methods for classifying assets, including architecture and solution artifacts as they evolve from generic Foundation Architectures to Organization-Specific Architectures.
-
-The (Enterprise) Architecture Metamodel is not a part of the Enterprise Continuum, but rather a separate concept containing entities within the enterprise and the relationships between them that need to be captured, stored and analyzed in order to create the Architecture Description.
-
-Phase A creates a draft Architecture Definition Document, which may include Baseline and/or Target Architectures of any Architecture Domain.
-
-
-An Artifact is an architectural work product that describes an aspect of the architecture.
-
-
-
-Chapter 4 Phase B: Business Architecture
-
-A knowledge of the Business Architecture is a prerequisite for architecture work in any other domain (Data, Application, Technology), and is therefore the first architecture activity that needs to be undertaken, if not catered for already in other organizational processes (enterprise planning, strategic business planning, business process re-engineering, etc.).
-
-In practical terms, the Business Architecture is also often necessary as a means of demonstrating the business value of subsequent architecture work to key stakeholders, and the return on investment to those stakeholders from supporting and participating in the subsequent work.
-
-
-Chapter 4 Architecture Board. The Architecture Board is typically made responsible, and accountable, for achieving some or all of the following goals:
-
-- Providing the basis for all decision-making with regard to the architectures
-- Consistency between sub-architectures
-- Establishing targets for re-use of components
-- Flexibility of the Enterprise Architecture:
-- To meet changing business needs
-- To leverage new technologies
-- Enforcement of Architecture Compliance
-- Improving the maturity level of architecture discipline within the organization
-- Ensuring that the discipline of architecture-based development is adopted
-- Supporting a visible escalation capability for out-of-bounds decisions
-
-Chapter 4 Architecture Board- A key element in a successful Architecture Governance strategy (see 3. Architecture Governance) is a cross-organization Architecture Board to oversee the implementation of the strategy. This body should be representative of all the key stakeholders in the architecture, and will typically comprise a group of executives responsible for the review and maintenance of the overall architecture.
-
-Chapter 4 Architecture Deliverables Purpose: Once an architecture has been defined, it is necessary to govern that architecture through implementation to ensure that the original Architecture Vision is appropriately realized and that any implementation learnings are fed back into the architecture process. Periodic compliance reviews of implementation projects provide a mechanism to review project progress and ensure that the design and implementation is proceeding in line with the strategic and architectural objectives.
-
-Chapter 4 Architecture Deliverables - A Requirements Impact Assessment assesses the current architecture requirements and specification to identify changes that should be made and the implications of those changes.As deliverables are typically the contractual or formal work products of an architecture project, it is likely that these deliverables will be constrained or altered by any overarching project or process management for the enterprise.
-
-The ABB is an architectural component that specifies the required Solution Building Blocks (SBBs) at a more logical (or supplier-independent) level. The SBB is a physical or implementation-specific component that realizes part or all of one or more logical Architecture Building Blocks (ABBs).
-
-
-The Architecture Definition Document provides a qualitative view of the solution and aims to communicate the intent of the architects.
-
-Business principles, business goals and business drivers provide context for architecture work, by describing the needs and ways of working employed by the enterprise.
-
-The Architecture Vision provides a summary of the changes to the enterprise that will accrue from successful deployment of the Target Architecture.
-
-The Request for Architecture Work is sent from the sponsoring organization to the architecture organization to trigger the start of an architecture development cycle.
-
-A new business strategy is not a technology-related factor for a Change Request.
-
-Architecture Contracts are the joint agreements between development partners and sponsors on the deliverables, quality, and fitness-for-purpose of an architecture.
-
-Enabling management in understanding the value of Enterprise Architecture is not an operational responsibility of the Architecture Board according to the TOGAF Standard.
-
-A Transition Architecture is a formal description of one state of the architecture at an architecturally significant point in time.
-
-Chapter 4 Phase B: Business Architecture: Conduct a formal stakeholder review is the last step before finalizing the Domain Architecture.
-
-The Request for Architecture Work is sent from the sponsoring organization to the architecture organization to trigger the start of an architecture development cycle
-
-The Architecture Building Block specifies the required Solution Building Blocks (SBBs) at a more logical (or supplier-independent) level.
-
-The Architecture Roadmap lists individual work packages that will realize the Target Architecture and lays them out on a timeline to show progression from the Baseline Architecture to the Target Architecture.
-
-The Architecture Vision is created early on in the ADM cycle. It provides a summary of the changes to the enterprise that will accrue from successful deployment of the Target Architecture.
-
-Deliverables represent the output of projects and those deliverables that are in documentation form will typically be archived at completion of a project or transitioned into an Architecture Repository as a reference model, standard or snapshot of the Architecture Landscape at a point in time.
-
-As part of Phase B, the architecture team will need to consider what relevant Business Architecture resources are available from the Architecture Repository in particular all of the above resources.
-
-An Architecture Viewpoint can also be seen as the definition or schema for that kind of architecture view. It establishes the conventions for constructing, interpreting and using an architecture view to address a specific concern (or set of concerns) about a system-of-interest.
-
-Developing a high-level aspirational vision of the capabilities and business value to be delivered as a result of the proposed Enterprise Architecture is one objective of Phase A: Architecture Vision.
-
-The compliance assessment provides a mechanism to review project progress and ensure that the design and implementation is proceeding in line with the strategic and architectural objectives.
-
-The Capability Architecture describes the abilities that an enterprise possesses.
-
-TOGAF defines an architecture as the structure of components, their inter-relationships and the principles and guidelines governing their design and evolution over time.
-
-Chapter 4 Phase B: Business Architecture - The definition of a strategic business plan is not an objective of Phase B, but rather an input of the Architecture Vision.
-
-Architecture Contracts are the joint agreements between development partners and sponsors on the deliverables, quality and fitness-for-purpose of an architecture.
-
-ADM stands for Architecture Development Method, EA for Enterprise Architecture and SBB for Solution Building Block - these are all main concepts of the TOGAF Standard.
-
-Then Phase G, Implementation Governance: the Practitioner serves the stakeholders guarding the mission, vision, goals, and investment roadmap. In short, guarding Enterprise value.
-
-A Solution Building Block (SBB) is a physical or implementation-specific component that realizes part or all of one or more logical Architecture Building Blocks (ABBs). Custom developed or purchased processes and IT systems are both implementation-specific components.
-
-An Architecture Requirements Specification is a quantitative view of the solution stating measurable criteria that must be met.
-
-A Communications Plan ensures effective communication of targeted information to the right stakeholders at the right time.
-
-The Architecture Definition Document is the deliverable container for the core architectural artifacts created during a project and for important related information.
-
-Among others, the Request for Architecture Work contains the business goals (and changes), strategic plans of the business and changes in the business environment.
-
-One main responsibility of the Architecture Board is the enforcement of Architecture Compliance.
-
-An Artifact is an architectural work product that describes an aspect of the architecture.
-
-Phase B delivers a draft Architecture Definition Document including the Baseline and Target Business Architecture.
-
-The Transition Architecture is a formal description of one state of the architecture at an architecturally significant point in time.
-
-A deliverable is an architectural work product that is contractually specified and in turn formally reviewed, agreed and signed off by the stakeholders.
-
-Phase B delivers a draft Architecture Definition Document including the Baseline and Target Business Architecture.
-
-The Target Architecture is a description of a future state of the architecture being developed for an organization.
-
-
-The basic premise is to highlight a shortfall between the Baseline Architecture and the Target Architecture; that is, items that have been deliberately omitted, accidentally left out or not yet defined.
-
-Phase C: Information Systems Architectures- This chapter describes the Information Systems Architectures for an architecture project, including the development of Data and Application Architectures.
-
-Chapter 5 Building Blocks
-Building blocks have generic characteristics as follows:
-- A building block is a package of functionality defined to meet the business needs across an organization
-- A building block normally has a type that corresponds to the metamodel (such as actor, business service, application, or data entity)
-- A building block has a defined boundary and is generally recognizable as "a thing" by domain experts
-- A building block may interoperate with other, inter-dependent building blocks.
-A good building block has the following characteristics:
-- It considers implementation and usage, and evolves to exploit technology and standards
-- It may be assembled from other building blocks
-- It may be a subassembly of other building blocks
-- Ideally a building block is re-usable and replaceable, and well specified
-
-Chapter 5 Phase C: Information Systems Architectures - Phase C: Information Systems Architectures includes the development of Application and Data Architectures.
-
-
-A building block's boundary and specification should be loosely coupled to its implementation.
-
-The technique validates an architecture that is being developed. The basic premise is to highlight a shortfall between the Baseline Architecture and the Target Architecture; that is, items that have been deliberately omitted, accidentally left out or not yet defined.
-
-A Building Block (BB) that appears in the Target Architecture and cannot be found in the Baseline Architecture is a shortfall between Baseline and Target Architecture, thus a gap.
-
-The basic premise of the technique is to highlight a shortfall between the Baseline Architecture and the Target Architecture; that is, items that have been deliberately omitted, accidentally left out or not yet defined.
-
-The Gap Analysis highlight a shortfall between the Baseline Architecture and the Target Architecture. To close the gaps, change is needed.
-
-A Building Block is a package of functionality defined to meet the business needs across an organization. It is not a software component or a micro service.
-
-Typically, the Practitioner and implementer are directed, and both are controlled by the stakeholder.
-
-Phase C develops the Target Information Systems Architectures, describes how the enterprise’s Information Systems Architecture and enables the Business Architecture and the Architecture Vision.
-
-A Building Block is a package of functionality defined to meet the business needs across an organization. Ideally a Building Block is re-usable and replaceable and well specified.
-
-The TOGAF Standard proposes a table for reporting against constraints, expected value and known gaps. The Governance Reporting Table is created as part of the Gap Analysis, taking place in Phase D: Technology Architecture.
-
-Chapter 5 Phase C: Information Systems Architectures - Develop the Target Information Systems Architectures, describing how the enterprise’s Information Systems Architecture will enable the Business Architecture and the Architecture Vision, in a way that addresses the Statement of Architecture Work and stakeholder concerns. Phase C involves some combination of Data and Application Architecture, in either order.
-
-The Gap Analysis highlights shortfalls between the Baseline Architecture and the Target Architecture. To close the gaps, change is needed.
-
-
-
-Chapter 6 Architecture Compliance Ensuring the compliance of individual projects with the Enterprise Architecture is an essential aspect of Architecture Governance (see 3. Architecture Governance). To this end, the IT governance function within an enterprise will normally define two complementary processes:
-
-- The Architecture function will be required to prepare a series of Project Architectures; i.e., project-specific views of the Enterprise Architecture that illustrate how the Enterprise Architecture impacts on the major projects within the organization (see ADM Phases A to F)
-- The Enterprise and IT Governance functions will define a formal Architecture Compliance review process (see 6.3 Architecture Compliance Reviews) for reviewing the compliance of all projects to the Enterprise Architecture
-
-Chapter 6 Phase C: Information Systems Architectures - Data Architecture -Ensuring that the Architecture Governance Framework is executed is an objective of Phase H: Architecture Change Management.
-
-The Enterprise and IT Governance functions will define a for mal Architecture Compliance review process for reviewing the compliance of all projects to the Enterprise Architecture.
-
-The Organization-Specific Architecture guides the final customization of the solution.
-An Organization-Specific Solution is an implementation of the Organization-Specific Architecture that provides the required business capabilities. Because solutions are designed for specific business operations, they contain the highest amount of unique content in order to accommodate the varying people and processes of specific organizations.
-
-
-Chapter 7 Phase C: Information Systems Architectures - Application Architecture -The Open Group has a Reference Model for Integrated Information Infrastructure (III-RM) that focuses on the application-level components and services necessary to provide an integrated information infrastructure. The model is used in Phase C.
-
-One objective of Phase G is to perform appropriate Architecture Governance functions for the solution and any implementation-driven architecture Change Requests.
-
-Chapter 7 Phase C: Information Systems Architectures - Application Architecture - The Open Group has a Reference Model for Integrated Information Infrastructure (III-RM) that focuses on the application-level components and services necessary to provide an integrated information infrastructure.
-
-Phase C delivers a draft Architecture Definition Document including the Baseline and Target Application Architecture.
-As part of Phase D, the architecture team will need to consider what relevant Technology Architecture resources are available in the Architecture Repository.
-
-In particular:
-- Existing IT services as documented in the IT repository or IT service catalog
-- The adopted technical reference model, if applicable
-- Generic technology models relevant to the organization's industry sector
-- Technology models relevant to Common Systems Architectures
-- The Open Group has a Reference Model for Integrated Information Infrastructure (III-RM) - see the TOGAF® Series Guide: The TOGAF Integrated Information Infrastructure Reference Model (III-RM) - that focuses on the application-level components and underlying services necessary to provide an integrated information infrastructure
-
-
-The Business Transformation Readiness Assessment is used for evaluating and quantifying an organization’s readiness to undergo change.
-
-The Business Transformation Readiness Assessment is used for evaluating and quantifying an organization’s readiness to undergo change.
-
-The Business Transformation Readiness Assessment is used for evaluating and quantifying an organization’s readiness to undergo change.
-
-Enterprise Architecture is a major endeavor within an organization and most often an innovative Architecture Vision (Phase A) and supporting Architecture Definition (Phases B to D) will entail considerable change. The Business Transformation Readiness Assessment evaluates and quantifies an organization’s readiness to undergo change.
-
-The readiness factors of a Business Transformation Readiness Assessment are presented by using maturity models.
-
-The mitigation actions are worked into ADM Phase E and F Implementation and Migration Plan.
-
-Risk Management identifies risks and improvement actions, not the Business Transformation Readiness Assessment.
-
-The mitigation actions are worked into ADM Phase E and F Implementation and Migration Plan.
-
-Phase D develops the Target Technology Architecture that enables the Architecture Vision, target business, data and application Building Blocks.
-
-The Business Transformation Readiness Assessment is used for evaluating and quantifying an organization’s readiness to undergo change.
-As part of Phase D, the architecture team will need to consider what relevant Technology Architecture resources are available in the Architecture Repository.
-
-In particular:
-- Existing IT services as documented in the IT repository or IT service catalog
-- The adopted technical reference model, if applicable
-- Generic technology models relevant to the organization's industry sector
-- Technology models relevant to Common Systems Architectures
-- The Open Group has a Reference Model for Integrated Information Infrastructure (III-RM) - see the TOGAF® Series Guide: The TOGAF Integrated Information Infrastructure Reference Model (III-RM) - that focuses on the application-level components and underlying services necessary to provide an integrated information infrastructure
-
-
-The Business Transformation Readiness Assessment is used for evaluating and quantifying an organization’s readiness to undergo change.
-
-The Business Transformation Readiness Assessment is used for evaluating and quantifying an organization’s readiness to undergo change.
-
-The Business Transformation Readiness Assessment is used for evaluating and quantifying an organization’s readiness to undergo change.
-
-Enterprise Architecture is a major endeavor within an organization and most often an innovative Architecture Vision (Phase A) and supporting Architecture Definition (Phases B to D) will entail considerable change. The Business Transformation Readiness Assessment evaluates and quantifies an organization’s readiness to undergo change.
-
-The readiness factors of a Business Transformation Readiness Assessment are presented by using maturity models.
-
-The mitigation actions are worked into ADM Phase E and F Implementation and Migration Plan.
-
-Risk Management identifies risks and improvement actions, not the Business Transformation Readiness Assessment.
-
-The mitigation actions are worked into ADM Phase E and F Implementation and Migration Plan.
-
-Phase D develops the Target Technology Architecture that enables the Architecture Vision, target business, data and application Building Blocks.
-
-The Business Transformation Readiness Assessment is used for evaluating and quantifying an organization’s readiness to undergo change.
-There are two levels of risk that should be considered, namely:
-1. Initial Level of Risk: risk categorization prior to determining and implementing mitigating actions
-2. Residual Level of Risk: risk categorization after implementation of mitigating actions (if any)
-
-
-9.1 Objectives
-
-The objectives of Phase E are to:
-- Generate the initial complete version of the Architecture Roadmap, based upon the gap analysis and candidate Architecture Roadmap components from Phases B, C, and D
-- Determine whether an incremental approach is required, and if so identify Transition Architectures that will deliver continuous business value
-- Define the overall Solution Building Blocks (SBBs) to finalize the Target Architecture based on the ABBs
-
-9.3 Steps:
-...
-Review and consolidate gap analysis results from Phases B to D
-
-
-Residual Level of Risk is the risk categorization after implementation of mitigating actions.
-
-Chapter 9 Phase E: Opportunities & Solutions -The outputs of Phase E may include the Implementation and Migration Plan (Draft) including an Implementation and Migration Strategy.
-
-Phase E defines the overall Solution Building Blocks (SBBs) to finalize the Target Architecture based on the Architecture Building Blocks (ABBs).
-
-Phase E creates the first version of the Implementation and Migration Plan. The plan must demonstrate the activity necessary to realize the Architecture Roadmap.
-
-Phase E identifies any business drivers that would constrain the sequence of implementation.
-
-Besides risk identification, Risk Management classifies, assesses, mitigates and monitors risk.
-
-The Phase E creates an overall Implementation and Migration Strategy that will guide the implementation of the Target Architecture.
-
-The Phase E creates an overall Implementation and Migration Strategy that will guide the implementation of the Target Architecture.
-
-
-Phase F: Migration Planning assesses the dependencies, costs and benefits of the migration projects.
-
-Phase F updates the Architecture Roadmap including any Transition Architectures. The phase also results in an approved Implementation and Migration Plan including a relationship to Target Architecture and any Transition Architectures.
-
-The outputs of Phase F may include finalized Architecture Definition Document with finalized Transition Architectures.
-The ADM Phase G: Implementation Governance provides an architectural oversight of the implementation.
-
-The outputs of Phase G may include, but are not restricted to Architecture Contract (signed) as recommended in the architecture-compliant implemented architectures.
-
-Phase G documents the Architecture Contract, obtaining the signature from all developing organizations and sponsoring organization.
-
-Phase G provides an architectural oversight of the implementation. It ensures conformance with the Target Architecture by implementation projects.
-
-As one objective, the ADM Phase G ensures conformance with the Target Architecture by implementation projects.
-The goal of an architecture change management process is to ensure that the architecture achieves its original target business value.
-
-Chapter 12 Phase H: Architecture Change Management - Finalizing the Architecture Roadmap is not an objective of Phase H. The Architecture Roadmap is finalized in Phase F: Migration Planning.
-
-Chapter 12 Phase H: Architecture Change Management-A simplification change can normally be handled via change management techniques. Since the change only occurs in the Technology Architecture, this type of change is correct.
-
-Chapter 12 Phase H: Architecture Change Management - Estimating resource requirements, project timings, and delivery vehicles is part of the approach to Phase F: Migration Planning.
-
-Chapter 12 Phase H: Architecture Change Management -Emergency change is not an architectural changes according to the TOGAF Architecture Development Method (ADM).
-
-As one objective, the ADM Phase H ensures that the Enterprise Architecture Capability meets current requirements.
-
-
-Only the Requirements Management Phase manages architecture requirements identified during any execution of the ADM cycle or a phase.
-
-The phase adds requirements and re-assesses priorities.
-
-The ADM is continuously driven by the Requirements Management process.
-
-As one objective, the ADM Requirements Management Phase ensures that relevant architecture requirements are available for use by each phase as the phase is executed.
